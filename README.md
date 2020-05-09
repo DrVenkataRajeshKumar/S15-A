@@ -1,6 +1,6 @@
 # S15-A
-##Data set of 100 backgroung images of streets and roads 
-https://drive.google.com/open?id=1nc1Yi_p7G7qDY8Gsl42keVgg6t-AQyGh  
+## Data set of 100 backgroung images of streets and roads   
+https://drive.google.com/open?id=1nc1Yi_p7G7qDY8Gsl42keVgg6t-AQyGh    
 Background images were downloaded and resized to 224* 224 uing GIMP
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/9.png)
 
