@@ -7,3 +7,7 @@ Data set of 100 foreground images of cars
 https://drive.google.com/open?id=1WFGmx-W2OBwhcEuqEANuUtc5JnRvtKA9
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/97.png)
 
+
+
+![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/masks.png)
+
