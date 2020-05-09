@@ -8,13 +8,13 @@ https://drive.google.com/open?id=1WFGmx-W2OBwhcEuqEANuUtc5JnRvtKA9
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/97.png)
 
 
-
+Data set of 100 foreground masks
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/masks.png)
 
 
-
+overlay images of fg on bg
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/fgbg.png)
 
 
-
+Depth estimation of overlay images 
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
