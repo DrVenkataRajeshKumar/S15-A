@@ -23,7 +23,7 @@ Tried using 3Dpaint and GIMP for creating masks of foreground images
 
 
 
-## Data set of 300k overlay images of fg on bg https://drive.google.com/open?id=1c8tO4rYzJtpDFUu5bJ0XBE9uvtl6ZWzH  
+## Data set of 300k overlay images of fg on bg   https://drive.google.com/open?id=1c8tO4rYzJtpDFUu5bJ0XBE9uvtl6ZWzH  
 Tried different approaches for overlay of foreground on background images.  
 Tried GIMP- water mark tool. managed to create 1000 images at a time.  
 In search of better approach used Photoshop. Recorded actions and implemented in scripts for automation for working on multiple sets of images. Managed to create 10000 images at a time i.e. placing one foreground image at 10 different places on all background images. Problem with this approach was it took almot 1hour for creating implementations and scripts and generating 10000 images. And more frustrating part is, have to creat scripts for new foreground each and every time. That means have to work 100 hour to implement with 100 foreground images.  
@@ -39,7 +39,7 @@ Finally after several attempts able to generate 400k fgbg and fgbg_mask images i
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay%20mask.png)
 
 
-## Depth estimation of 400k overlay images  https://drive.google.com/open?id=1JUupNIBdN-oZdGwyctPhyzOPpKqO3_86   
+## Depth estimation of 400k overlay images    https://drive.google.com/open?id=1JUupNIBdN-oZdGwyctPhyzOPpKqO3_86   
 Tried the Depth model reference given (https://github.com/ialhashim/DenseDepth/blob/master/DenseDepth.ipynb) and with few modifications able to implement nyu-h5 on the overlay bg-fg images.  
 Depth predictions were not prominent. Tried other options for better predictions.
 Tried KITTI ICCV (https://github.com/nianticlabs/monodepth2) and foundout better depth predictions than nyu-h5. My intusion for poor depth prediction of few fg images is (*As menctioned erlier) becaue of poor selection of foregroung images i.e with some what blur margins
