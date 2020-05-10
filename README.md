@@ -23,7 +23,7 @@ Tried using 3Dpaint and GIMP for creating masks of foreground images
 
 
 
-## Data set of 400k overlay images of fg on bg https://drive.google.com/drive/folders/1c8tO4rYzJtpDFUu5bJ0XBE9uvtl6ZWzH?usp=sharing  
+## Data set of 400k overlay images of fg on bg (https://drive.google.com/drive/folders/1c8tO4rYzJtpDFUu5bJ0XBE9uvtl6ZWzH?usp=sharing)  
 Tried different approaches for overlay of foreground on background images.  
 Tried GIMP- water mark tool. managed to create 1000 images at a time.  
 In search of better approach used Photoshop. Recorded actions and implemented in scripts for automation for working on multiple sets of images. Managed to create 10000 images at a time i.e. placing one foreground image at 10 different places on all background images. Problem with this approach was it took almot 1hour for creating implementations and scripts and generating 10000 images. And more frustrating part is, have to creat scripts for new foreground each and every time. That means have to work 100 hour to implement with 100 foreground images.  
