@@ -46,7 +46,9 @@ Finally after several attempts able to generate 400k fgbg and fgbg_mask images i
 * Tried the Depth model reference given [DenseDepth nyu-h5](https://github.com/ialhashim/DenseDepth/blob/master/DenseDepth.ipynb) and with few modifications able to implement nyu-h5 on the overlay bg-fg images.    
 Depth predictions were not prominent. 
  
-* Tried [KITTI ICCV](https://github.com/nianticlabs/monodepth2) and foundout better depth predictions than nyu-h5. My intusion for poor depth prediction of few fg images is (*As menctioned erlier) becaue of poor selection of foregroung images i.e with some what blur margins
+* Tried [KITTI ICCV](https://github.com/nianticlabs/monodepth2) and foundout better depth predictions than nyu-h5. My intusion for poor depth prediction of few fg images is (*As menctioned erlier) becaue of poor selection of foregroung images i.e with blur margins
 * [code for Depth images](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.ipynb)   
+* KITTI is used for outdore images, and nyu-h5 is mostly used for indore images.
+* KITTI predicts nearer objects with lighter colour, Where as nyu-h5 predicts farther objects with lighter colour
 
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
