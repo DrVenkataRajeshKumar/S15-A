@@ -33,11 +33,15 @@ Started coding in colab.
 Next problem encountered was to handle large number of images generated in colab.
 Used zip folder, to flush, generated images into zipfile.
 Finally after several attempts able to generate 400k fgbg and fgbg_mask images in jest 1 hour 30 minutes and able to store them in zip file with-out colapsing the drive.
-![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/fgbg.png)
+![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay.png)
+
+
+![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/masks.png)
 
 
 ## Depth estimation of 400k overlay images   
 Tried the Depth model reference given (https://github.com/ialhashim/DenseDepth/blob/master/DenseDepth.ipynb) and with few modifications able to implement nyu-h5 on the overlay bg-fg images.  
 Depth predictions were not prominent. Tried other options for better predictions.
 Tried KITTI ICCV (https://github.com/nianticlabs/monodepth2) and foundout better depth predictions than nyu-h5. My intusion for poor depth prediction of few fg images is (*As menctioned erlier) becaue of poor selection of foregroung images i.e with some what blur margins
+
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
