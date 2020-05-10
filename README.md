@@ -47,5 +47,5 @@ Finally after several attempts able to generate 400k fgbg and fgbg_mask images i
 Depth predictions were not prominent. 
  
 * Tried [KITTI ICCV](https://github.com/nianticlabs/monodepth2) and foundout better depth predictions than nyu-h5. My intusion for poor depth prediction of few fg images is (*As menctioned erlier) becaue of poor selection of foregroung images i.e with some what blur margins
-
+* [code for Depth images](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.ipynb)
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
