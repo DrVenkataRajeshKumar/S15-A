@@ -29,7 +29,7 @@
 
 
 
-## Data set of 300k overlay images of Foreground on Background  
+## Data set of 400k overlay images of Foreground on Background  
 ### [link to Overlay images](https://drive.google.com/open?id=1c8tO4rYzJtpDFUu5bJ0XBE9uvtl6ZWzH)  
 Tried different approaches for overlay of foreground on background images.  
 * Tried GIMP- water mark tool. managed to create 1000 images at a time.  
@@ -42,12 +42,12 @@ Used zip folder, to flush, generated images into zipfile.
 Finally after several attempts able to generate 400k fgbg and fgbg_mask images in jest 1 hour 30 minutes and able to store them in zip file with-out colapsing the drive. [code](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/trail15a.ipynb)
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay.png)
 
-## 300k Masks of overlayed images
+## 400k Masks of overlayed images
 ### [link to Masks of overlay images](https://drive.google.com/open?id=1og3tDEszR1N6lqEZsc6DE3s-9EG3cfzp)
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay%20mask.png)
 
 
-## Depth estimation of 300k overlay images   
+## Depth estimation of 400k overlay images   
 ### [link to Depth images](https://drive.google.com/open?id=1JUupNIBdN-oZdGwyctPhyzOPpKqO3_86)   
 * Tried the Depth model reference given [DenseDepth nyu-h5](https://github.com/ialhashim/DenseDepth/blob/master/DenseDepth.ipynb) and with few modifications able to implement nyu-h5 on the overlay bg-fg images.    
 Depth predictions were not prominent. 
