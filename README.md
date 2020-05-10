@@ -37,5 +37,5 @@ Finally after several attempts able to generate 400k images in jest 30 minutes a
 ## Depth estimation of 400k overlay images   
 Tried the Depth model reference given (https://github.com/ialhashim/DenseDepth/blob/master/DenseDepth.ipynb) and with few modifications able to implement nyu-h5 on the overlay bg-fg images.  
 Depth predictions were not prominent. Tried other options for better predictions.
-Tried KITTI ICCV (https://github.com/nianticlabs/monodepth2) and foundout better depth predictions.
+Tried KITTI ICCV (https://github.com/nianticlabs/monodepth2) and foundout better depth predictions than nyu-h5. My intusion for poor depth prediction of few fg images is (*As menctioned erlier) becaue of poor selection of foregroung images i.e with some what blur margins
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
