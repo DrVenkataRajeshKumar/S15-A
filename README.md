@@ -36,7 +36,7 @@ Finally after several attempts able to generate 400k fgbg and fgbg_mask images i
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay.png)
 
 
-![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/masks.png)
+![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/overlay%20mask.png)
 
 
 ## Depth estimation of 400k overlay images   
