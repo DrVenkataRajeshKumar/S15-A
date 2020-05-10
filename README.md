@@ -52,3 +52,9 @@ Depth predictions were not prominent.
 * KITTI predicts nearer objects with lighter colour, Where as nyu-h5 predicts farther objects with lighter colour
 
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
+
+### --My Team Members--
+
+Dr Mounika  duddukurimounika@gmail.com  
+Meenakshi  meenuraji1999@gmail.com   
+Vivek   krovvidivivek@gmail.com
