@@ -1,6 +1,6 @@
 # S15-A
 ## Data set of 100 backgroung images of streets & roads   
-**[link to bg images](https://drive.google.com/open?id=1nc1Yi_p7G7qDY8Gsl42keVgg6t-AQyGh)**    
+### [link to bg images](https://drive.google.com/open?id=1nc1Yi_p7G7qDY8Gsl42keVgg6t-AQyGh)    
 Background images were downloaded and resized to 224* 224 uing GIMP
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/9.png)
 
@@ -25,7 +25,7 @@ Tried using 3Dpaint and GIMP for creating masks of foreground images
 
 ## Data set of 300k overlay images of fg on bg  
 ### [link to Overlay images](https://drive.google.com/open?id=1c8tO4rYzJtpDFUu5bJ0XBE9uvtl6ZWzH)  
-Tried different approaches for overlay of foreground on background images.  
+* Tried different approaches for overlay of foreground on background images.  
 Tried GIMP- water mark tool. managed to create 1000 images at a time.  
 In search of better approach used Photoshop. Recorded actions and implemented in scripts for automation for working on multiple sets of images. Managed to create 10000 images at a time i.e. placing one foreground image at 10 different places on all background images. Problem with this approach was it took almot 1hour for creating implementations and scripts and generating 10000 images. And more frustrating part is, have to creat scripts for new foreground each and every time. That means have to work 100 hour to implement with 100 foreground images.  
 Finally understood the value of coding and loop implementation. 
