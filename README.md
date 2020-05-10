@@ -1,16 +1,18 @@
 # S15-A
 
-* A Large Custom DataSet is created using few images with fallowing steps 
+## A Large Custom DataSet is created using few images with fallowing steps
+* Cars were chosed as Foreground(fg) images and
+* Streets & Roads were chosed a Backgroung(bg) images.
 
-## Data set of 100 backgroung images of streets & roads   
+## Data set of 100 Backgroung images of streets & roads   
 ### [link to bg images](https://drive.google.com/open?id=1nc1Yi_p7G7qDY8Gsl42keVgg6t-AQyGh)    
-Background images were downloaded and resized to 224* 224 uing GIMP
+* Background images were downloaded and resized to 224* 224 uing GIMP
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/9.png)
 
 
-## Data set of 100 foreground images of cars   
+## Data set of 100 Foreground images of cars   
 ### [link to fg images](https://drive.google.com/open?id=1WFGmx-W2OBwhcEuqEANuUtc5JnRvtKA9)   
-car images were downloaded, backgrounds were deleted uing 3Dpaint and car images with tranparent background were created.
+* car images were downloaded, backgrounds were deleted uing 3Dpaint and car images with tranparent background were created.
  *Regreted this step in later stages of creating depth images- as it created blur margins
  
  ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/97.png)
@@ -18,15 +20,16 @@ car images were downloaded, backgrounds were deleted uing 3Dpaint and car images
 
 
 
-## Data set of 100 foreground masks
-Tried using 3Dpaint and GIMP for creating masks of foreground images
+## Data set of 100 Masks of Foreground images 
+* Masks are the images with the object in white colour and remaining part in dark black colour.
+* Tried using 3Dpaint and GIMP for creating masks of foreground images
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/masks.png)
 
 
 
 
 
-## Data set of 300k overlay images of fg on bg  
+## Data set of 300k overlay images of Foreground on Background  
 ### [link to Overlay images](https://drive.google.com/open?id=1c8tO4rYzJtpDFUu5bJ0XBE9uvtl6ZWzH)  
 Tried different approaches for overlay of foreground on background images.  
 * Tried GIMP- water mark tool. managed to create 1000 images at a time.  
@@ -56,8 +59,9 @@ Depth predictions were not prominent.
 
 ![Image](https://github.com/DrVenkataRajeshKumar/S15-A/blob/master/depth.png)
 
-### --My Team Members--
+### --Team Members--
 
+Dr Venkata Rajesh Kumar  drvenkatarajeshkumar@gmail.com
 Dr Mounika  duddukurimounika@gmail.com  
 Meenakshi  meenuraji1999@gmail.com   
 Vivek   krovvidivivek@gmail.com
