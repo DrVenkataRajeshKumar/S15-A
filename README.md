@@ -1,4 +1,7 @@
 # S15-A
+
+* A Large Custom DataSet is created using few images with fallowing steps 
+
 ## Data set of 100 backgroung images of streets & roads   
 ### [link to bg images](https://drive.google.com/open?id=1nc1Yi_p7G7qDY8Gsl42keVgg6t-AQyGh)    
 Background images were downloaded and resized to 224* 224 uing GIMP
