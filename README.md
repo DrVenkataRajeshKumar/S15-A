@@ -6,7 +6,7 @@ Background images were downloaded and resized to 224* 224 uing GIMP
 
 
 ## Data set of 100 foreground images of cars   
-### https://drive.google.com/open?id=1WFGmx-W2OBwhcEuqEANuUtc5JnRvtKA9   
+### [link to images](https://drive.google.com/open?id=1WFGmx-W2OBwhcEuqEANuUtc5JnRvtKA9)   
 car images were downloaded, backgrounds were deleted uing 3Dpaint and car images with tranparent background were created.
  *Regreted this step in later stages of creating depth images- as it created blur margins
  
